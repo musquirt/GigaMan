@@ -1,7 +1,7 @@
 default : GameCore.class
 
 clean :
-	@rm ./*.class
+	@rm -f ./*.class
 
 GameCore.class : GameCore.java
 	@javac -cp ../../../ GameCore.java

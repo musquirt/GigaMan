@@ -1,7 +1,7 @@
 default : Animation.class Sprite.class NullRepaintManager.class ScreenManager.class
 
 clean :
-	@rm ./*.class
+	@rm -f ./*.class
 
 Animation.class : Animation.java
 	@javac -cp ../../../ Animation.java

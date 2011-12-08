@@ -1,7 +1,7 @@
 default : GameAction.class InputManager.class
 
 clean :
-	@rm ./*.class
+	@rm -f ./*.class
 
 GameAction.class : GameAction.java
 	@javac -cp ../../../ GameAction.java
